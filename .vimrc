@@ -2,7 +2,7 @@
 :command Conf split $HOME/.config/nvim/.vimrc
 :command Plugins split $HOME/.config/nvim/plugins.vim
 :command Init split $HOME/.config/nvim/init.vim
-:command I3 split $HOME/.config/i3/config
+:command I3 edit $HOME/.config/i3/config
 :command Snip split $HOME/.config/nvim/UltiSnips
 
 " enable vim to use system clipboard
@@ -11,6 +11,7 @@ set clipboard=unnamedplus
 " set line numbering
 set number
 set relativenumber
+set scrolloff=4
 
 " tabs
 set tabstop=4           " visual length of \t char
